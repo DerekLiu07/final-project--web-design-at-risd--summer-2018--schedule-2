@@ -13,19 +13,31 @@ body {
     body {
       width: auto; } }
 
-header,
-nav,
-main,
-footer {
-  border: 1px solid #000; }
+#navbar {
+  justify-content: space-around; }
 
-header
 nav {
-  font-family: 'Muli', sans-serif; }
+  font-family: 'Hind', sans-serif;
+  font-size: 20px;
+  font-weight: lighter;
+  letter-spacing: 2px;
+  position: fixed;
+  top: 0px;
+  width: 1200px;
+  color: #696969;
+  background-color: white;
+  height: 80px; }
+
+li {
+  float: left;
+  position: relative;
+  top: 30px;
+  list-style: none; }
 
 main {
   margin: auto;
-  border: 0; }
+  border: 0;
+  height: 2000px; }
   main video {
     width: 400px;
     float: left;
