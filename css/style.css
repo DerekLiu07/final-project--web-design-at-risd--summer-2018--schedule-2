@@ -14,7 +14,7 @@ body {
       width: auto; } }
 
 #navbar {
-  justify-content: space-around; }
+  display: flex; }
 
 nav {
   font-family: 'Hind', sans-serif;
@@ -40,15 +40,24 @@ main {
   height: 2000px;
   margin-top: 250px; }
   main video {
-    width: 400px;
+    width: 440px;
     float: left;
     height: 100%;
-    line-height: 0px; }
-    @media (min-width: 800px) and (max-width: 1200px) {
+    line-height: 0px;
+    margin-top: 200px;
+    padding-top: 80px;
+    padding-left: 60px; }
+    @media (max-width: 1440px) {
       main video {
-        clear: both; } }
+        clear: both;
+        width: 400px; } }
+  @media (min-width: 800px) and (max-width: 1200px) {
+    main {
+      clear: both; } }
   main div {
     float: left; }
+  main div:nth-child(4) {
+    height: 400px; }
   main img {
     float: left;
     width: 400px;
@@ -71,17 +80,44 @@ main {
         padding-top: 0px;
         padding-left: 0px; } }
   main .img-div-3 {
-    width: 360px;
-    padding-top: 160px;
-    padding-left: 60px; }
+    width: 360px; }
+    @media (min-width: 1280px) {
+      main .img-div-3 {
+        padding-top: 160px;
+        padding-left: 60px; } }
     @media (max-width: 880px) {
       main .img-div-3 {
         width: 100%;
         padding-top: 0px;
         padding-left: 0px; } }
+  main .img-div-4 {
+    width: 320px;
+    margin-top: 200px; }
+    @media (max-width: 880px) {
+      main .img-div-4 {
+        width: 100%;
+        padding-left: 60px; } }
+    @media (min-width: 880px) and (max-width: 1280px) {
+      main .img-div-4 {
+        padding-left: 60px; } }
+  main .img-div-5 {
+    width: 320px;
+    padding-top: 400px;
+    padding-left: 60px; }
+    @media (max-width: 880px) {
+      main .img-div-5 {
+        width: 100%;
+        padding-top: 0px;
+        padding-left: 0px; } }
+    @media (max-width: 1280px) {
+      main .img-div-5 {
+        width: 40%;
+        padding-top: 200px;
+        padding-left: 60px;
+        clear: both; } }
   main h1 {
     font-family: 'Hind', sans-serif;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: lighter;
     letter-spacing: 1.1px; }
   main .title1 {
@@ -97,12 +133,31 @@ main {
     padding-left: 60px;
     margin-top: 390px; }
   main .title3 {
-    width: 320px;
+    width: 200px;
     color: #696969;
     display: block;
     text-align: left;
     padding-left: 60px;
     margin-top: 250px; }
+  main .title4 {
+    width: 320px;
+    color: #696969;
+    text-align: left;
+    margin-top: 450px; }
+  main .title5 {
+    width: 320px;
+    color: #696969;
+    display: block;
+    text-align: left;
+    padding-left: 60px;
+    margin-top: 540px; }
+  main .title6 {
+    width: 200px;
+    color: #696969;
+    display: block;
+    text-align: left;
+    padding-left: 60px;
+    margin-top: 650px; }
   main footer {
     float: left;
     width: 100%; }
