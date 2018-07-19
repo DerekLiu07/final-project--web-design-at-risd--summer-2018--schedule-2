@@ -23,24 +23,37 @@ footer {
   display: flex;
   justify-content: space-between; }
 
-.flex-item {
-  width: 100px;
-  height: 40px;
-  list-style: none;
-  font-family: 'Hind', sans-serif;;
-  font-size: 15px;
-  font-weight: lighter;
-  letter-spacing: 2px;
-  color: #696969;
-  }
+  .flex-item {
+    width: 100px;
+    height: 40px;
+    list-style: none;
+    font-family: 'Hind', sans-serif;;
+    font-size: 15px;
+    font-weight: lighter;
+    letter-spacing: 2px;
+    color: #696969;
+    padding-top:50px;
 
+    }
 
 nav {
-  margin-top: 50px;
+  /* margin-top: 50px; */
+  padding-bottom: 50px;
   width: 1200px;
   position: fixed;
   background-color: white;
-}
+  z-index: 9;
+  }
+  @media (max-width:1280px) {
+    nav{
+      width:900px;
+  }
+  @media (max-width:800px) {
+     nav{
+       width:100%;
+    }
+    }
+  }
 
 .fab fa-instagram{
   border: 1px solid green;
