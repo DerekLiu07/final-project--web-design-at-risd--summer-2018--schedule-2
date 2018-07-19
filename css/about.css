@@ -34,9 +34,10 @@ footer {
   color: #696969;
   }
 
+
 nav {
   margin-top: 50px;
-  width: 1260px;
+  width: 1200px;
   position: fixed;
   background-color: white;
 }
@@ -51,19 +52,17 @@ div{
   margin: auto;
 }
 
-
 img{
-  /* border: 1px solid green; */
-  width: 600px;
-  position: fixed;
-  padding-left: 600px;
-  padding-top: 150px;
+    /* border: 1px solid green; */
+    width: 600px;
+    position: fixed;
+    top:100px;
+    padding-left: 600px;
 
-  }@media (max-width: 880px) {
-   body {
-     width: auto; }
-  }
-
+    }@media (max-width: 880px) {
+     body {
+       width: auto; }
+    }
 
 p{
   position: absolute;
@@ -87,7 +86,7 @@ span{
 
 
 .caption{
-  padding-top:500px;
+
   line-height: 2;
   font-family: 'Hind', sans-serif;;
   font-size: 18px;
