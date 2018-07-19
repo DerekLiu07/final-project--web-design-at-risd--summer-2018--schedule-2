@@ -37,7 +37,8 @@ li {
 main {
   margin: auto;
   border: 0;
-  height: 2000px; }
+  height: 2000px;
+  margin-top: 250px; }
   main video {
     width: 400px;
     float: left;
@@ -58,6 +59,22 @@ main {
     @media (max-width: 880px) {
       main img {
         width: 100%; } }
+
+img:nth-child(1) {
+  width: 320px; }
+  @media (max-width: 880px) {
+    img:nth-child(1) {
+      width: 100%; } }
+
+img:nth-child(2) {
+  width: 400px;
+  margin-left: 30px;
+  margin-top: 60px; }
+
+img:nth-child(3) {
+  width: 320px;
+  margin-left: 30px;
+  margin-top: 90px; }
 
 footer {
   float: left;
