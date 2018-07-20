@@ -61,12 +61,12 @@ nav {
 }
 
 p{
-  text-align: center;
+  text-align: left;
   /* border: 1px solid red; */
   width: 1200px;
   position: relative;
   top:200px;
-  font-size: 1.6rem;
+  font-size: 3rem;
   letter-spacing: 1.2px;
   font-weight: lighter;
   line-height: 1.5;
