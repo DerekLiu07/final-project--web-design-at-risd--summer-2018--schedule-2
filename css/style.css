@@ -40,7 +40,9 @@ footer {
     padding-top:50px;
   }
 
-
+  .aboutBtn {
+    text-align: right;
+  }
 
 nav {
   /* margin-top: 50px; */
@@ -300,10 +302,6 @@ main div{
     }
 }
 
-a {
-  text-decoration: none;
-}
-
 h2{
   text-align: right;
   padding-bottom: 50px;
@@ -337,4 +335,24 @@ h2{
    left: 120px;
    color: #696969;
    z-index: 90;
+  }
+
+  a {
+    color: #696969;
+    text-decoration: none;
+    transition: cubic-bezier(.78,.16,.06,1) 500ms 0s;
+  }
+
+  a:visited {
+      color: #696969;
+      text-decoration: none;
+  }
+
+  a:hover {
+      text-decoration: none;
+      color: white;
+  }
+
+  a:active {
+      text-decoration: underline;
   }
