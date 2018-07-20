@@ -90,7 +90,8 @@ p{
 span{
   font-family: 'Amiri', serif;
   font-weight: normal;
-  font-size: 30px;
+  font-size: 28px;
+  letter-spacing: 2px;
 }
 
 h1{
