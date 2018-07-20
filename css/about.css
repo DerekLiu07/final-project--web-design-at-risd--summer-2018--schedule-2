@@ -116,5 +116,21 @@ footer{
 
 
 a {
+  color: #696969;
   text-decoration: none;
+  transition: cubic-bezier(.78,.16,.06,1) 500ms 0s;
+}
+
+a:visited {
+    color: #696969;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+    color: white;
+}
+
+a:active {
+    /* text-decoration: underline; */
 }

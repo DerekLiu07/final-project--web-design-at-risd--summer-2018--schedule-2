@@ -354,5 +354,9 @@ h2{
   }
 
   a:active {
-      text-decoration: underline;
+      /* text-decoration: underline; */
   }
+.titlelink {
+  text-decoration: underline;
+
+}
