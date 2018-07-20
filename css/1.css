@@ -289,4 +289,5 @@ h2{
    bottom:50px;
    left: 120px;
    color: #696969;
+   z-index: 90;
   }
